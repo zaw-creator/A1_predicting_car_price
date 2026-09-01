@@ -19,6 +19,9 @@ layout = html.Div([
         "worry if you're missing a detail or two — the tool can fill in "
         "reasonable estimates for anything you leave blank."
     ),
+       html.P(
+            "FYI: This website is host on free hosting service, so it may take a few seconds to load the first time you visit."
+        ),
 
     dcc.Link(
         html.Button("Get a Price Prediction", className="predict-button"),
